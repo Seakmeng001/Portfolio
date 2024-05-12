@@ -273,6 +273,8 @@ section{
     height: 500px;
     padding: 75px 90px;
     margin-left: 120px;
+   display: flex;
+   justify-content: space-between;
 }
 .heading1{
     text-align: center;
