@@ -148,13 +148,13 @@ body{
 }
 .about-img img{
     padding-bottom: 20%;
-    max-width: 1100px;
-    height: 1000;
+    max-width: 1000px;
+    height: 900;
     width: 100%;
     border-radius: 8px;
 }
 .about-text h2{
-    font-size: 100px;
+    font-size: 50px;
 }
 .about-text h2 span{
     color: #0ef;
@@ -280,6 +280,8 @@ section{
     text-underline-offset: 10px;
     text-decoration-thickness: 5px;
     margin-bottom: 50px;
+    position: relative;
+    top:50px;
 }
 .bar{
     font-size: 23px;
@@ -414,12 +416,14 @@ section{
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: flex-start;
+    position: relative;
+    top:100px;
  }
  .radial-bars .radial-bar{
     width: 50%;
     height: 170px;
     margin-bottom: 10px;
-    position: relative;
+    
  }
  @keyframes showtext{
     100%{
@@ -438,6 +442,7 @@ section{
     height: 170px;
     margin-bottom: 10px;
     position: relative;
+    
  }
  .radial-bars .radial-bar svg{
     position: absolute;
@@ -542,7 +547,7 @@ section{
     overflow: hidden;
     border-radius: 8px;
     cursor: pointer;
-   right: -150px;
+   right: -160px;
 
 }
 .row img{
@@ -550,7 +555,7 @@ section{
     width: 100%;
     border-radius: 8px;
     display: flex;
-    padding: 40px;
+    padding: 20px;
     transition: transform 0.5s;
 
 }
@@ -607,13 +612,15 @@ section{
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
     gap: 3rem;
-    padding-left: 30px;
+    padding-left: 20px;
     margin-top: 130px;
 }
 .contact-text h2{
     font-size: 90px;
     line-height: 1;
     text-align: center;
+    
+    
 }
 .contact-text h2 span{
     color: #0ef;
@@ -680,6 +687,7 @@ section{
 }
 .contact-form form{
     position: relative;
+    
 }
 .contact-form form input,form textarea{
     border: none;
